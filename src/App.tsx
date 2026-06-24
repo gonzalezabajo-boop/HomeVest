@@ -1302,7 +1302,7 @@ export default function HomeVestApp() {
                 ].map(([label, val]) => (
                   <button
                     key={val}
-                    onClick={() => setHabitaciones(val)}
+                    onClick={() => setHabitaciones(Number(val))}
                     style={{
                       flex: 1,
                       padding: "6px 0",
